@@ -1,0 +1,646 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #876d51;
+  font-family: Arial;
+  -ms-overflow-style: none;
+  background-image: url("pictures/An-English-Ship-with-Sails-Loosened-Firing-a-Gun-by-Peter-Monamy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+/* All H1, H2, H3 Styling Start */
+
+h1 {
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  color: white;
+  margin: 0;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-family: Alegreya, sans-serif;
+}
+
+h2 {
+  color: white;
+  text-shadow: black 2px 1px;
+  margin: 0;
+  font-size: 28px;
+  margin-bottom: 1%;
+  font-family: Alegreya, sans-serif;
+}
+
+.quiz h2 {
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.startmenu h2 {
+  color: white;
+  margin-bottom: 0;
+  font-size: 38px;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+}
+
+.startmenu h3 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  font-size: 24px;
+  font-family: Alegreya, Arial, Helvetica, sans-serif;
+  margin: 15px;
+}
+
+/* All H1, H2, H3 Styling End */
+
+/*Top of Site Container Styling */
+
+.uppersite {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+/* Nav STyling Start */
+
+nav {
+  width: 45%;
+  background-color: #665533;
+  border: 2px solid gold;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+  padding: 0 0;
+}
+
+li a {
+  letter-spacing: 1.6;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: black 1px 1px;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+
+li a:hover {
+  color: lightgray;
+}
+
+/* Nav Styling End */
+
+/* Default Styling of Quiz Behaviour on Page Load */
+
+.quiz {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  opacity: 1;
+  position: absolute;
+  left: 2000px;
+  top: 0;
+}
+
+/*ScoreBox, Question Number And Pause BackGround Music Container Styling*/
+
+.extracon {
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  z-index: 20;
+  opacity: 1;
+  position: absolute;
+  left: 2000px;
+  top: 0;
+}
+
+/*ScoreBox Style During the Quiz*/
+
+.scorebox {
+  width: 400px;
+  height: 150px;
+  background-color: rgb(71, 168, 201);
+  border: 2px solid gold;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  opacity: 1;
+  font-weight: 600;
+}
+
+/*ScoreBox At the End of Quiz*/
+
+.scorebox.mystyle {
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: normal;
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  border: none;
+}
+
+.scorebox.mystyle p {
+  background-color: #012169;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  border: 2px solid white;
+  animation: 0.35s ease-out;
+  animation-name: inputquiz;
+  animation-duration: 1s;
+}
+
+.scorebox.mystyle #p1 {
+  background-color: #c8102e;
+  animation-duration: 0.5s;
+}
+
+.scorebox.mystyle #p3 {
+  background-color: #c8102e;
+  animation-duration: 1.25s;
+}
+
+/*Question Number Tracker Styling */
+
+.sbox {
+  width: 400px;
+  height: 150px;
+  background-color: #f39e00;
+  border: 2px solid white;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  opacity: 1;
+  font-weight: 600;
+}
+
+/*Start of Pause Background Music Styling */
+
+#timer {
+  width: 400px;
+  height: 150px;
+  background-color: grey;
+  border: 2px solid gold;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  opacity: 1;
+}
+
+#timer:hover {
+  background-color: darkgrey;
+}
+
+/*End of Pause Background Music Styling */
+
+/*Start Menu for Quiz Styling Start */
+
+.startmenu {
+  width: 100%;
+  background-size: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-color: tan;
+  border: 2px solid gold;
+}
+
+/*Background for Start Menu 1*/
+
+.wood {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url("pictures/1920px-Flag_of_the_United_Kingdom.svg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-start {
+  display: flex;
+  background-image: url("pictures/05_01_000228.jpg");
+  background-size: 60%;
+  justify-content: center;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.credits {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.credits p {
+  color: white;
+  font-family: Alegreya, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+}
+
+/*Button to Start Quiz Styling */
+
+#startQuiz {
+  cursor: pointer;
+  width: 200px;
+  height: 75px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background-color: darkblue;
+  border: 2px solid gold;
+  letter-spacing: 1px;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+#startQuiz:hover {
+  background-color: rgb(59, 59, 97);
+  transition: all 0.35s ease-in-out;
+}
+
+/*Question Heading for Quiz that is Populated by Question List */
+
+.questionHeading {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  background-color: #012169;
+  border: 3px solid gold;
+  height: 150px;
+  color: white;
+}
+
+/*Quiz Input Container*/
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 6%;
+  opacity: 1;
+}
+
+/*Quiz Inputs ABCD Styling */
+
+.quiz input {
+  cursor: pointer;
+  background-color: #c8102e;
+  color: white;
+  font-weight: 600;
+  height: 175px;
+  width: 400px;
+  font-size: 30px;
+  border: 2px solid gold;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0;
+  text-shadow: 2px 1px black, 2px 1px black, 2px 1px black, 2px 1px black;
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+  animation: 0.35s ease-out;
+  animation-name: inputquiz;
+  animation-duration: 3s;
+}
+
+@keyframes inputquiz {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.quiz input.blue {
+  background-color: #c8102e;
+}
+
+.quiz input:hover {
+  background-color: gray;
+  transition: all 0.35s ease-in-out;
+}
+
+/*Fake Input Styling */
+
+#Qanswer {
+  display: none;
+}
+
+/*Background Video Styling For Quiz*/
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 80%;
+  opacity: 0.2;
+  visibility: hidden;
+  z-index: -1;
+}

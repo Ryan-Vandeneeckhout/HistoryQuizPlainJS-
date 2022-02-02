@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The History Quiz - Javascript Project 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!--Start of Top of Site Section-->
+        <section class="upperwebsite">
+            <div class="uppersite">
+                <!--Container for Top of Site Section-->
+                <h1>Comprehensive World History</h1>
+                <nav id="boot">
+                    <!--Start of Site Nav Section-->
+                    <ul class="main-menu">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="quizList.html">Quiz List</a></li>
+                        <li><a href="ExploreUs.html">Explore the Site</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!--End of Top of Site Section-->
+
+        <section class="startofQuiz">
+
+            <div id="bg"></div>
+            <!---Quiz Start Background 1-->
+            <div class="startmenu" id="startmenu">
+                <div class="wood">
+                    <div class="bg-start">
+                        <h2>Welcome to the History Quiz!</h2>
+                        <h3>Click Button to Start the Quiz!</h3>
+                        <input id="startQuiz" type="button" value="Start Quiz" onclick="startQuestions(); play();">
+                    </div>
+                </div>
+            </div>
+
+            <div class="credits" id="credits">
+                <p>Created At Juno College of Technology</p>
+            </div>
+
+        </section>
+
+        <!--Start of Quiz Section-->
+        <div class="quiz" id="quiz">
+            <h2 class="questionHeading" id="questionHeading"></h2>
+            <!--Current Question-->
+            <br>
+            <div class="choices" id="choicesmenu">
+                <!--User Input Selection Section-->
+                <input id="choiceA" type="button" value="" onclick="checkAnswer1();">
+                <input id="choiceB" type="button" value="" onclick="checkAnswer2();">
+                <input id="choiceC" type="button" value="" onclick="checkAnswer3();">
+                <input id="choiceD" type="button" value="" onclick="checkAnswer4();">
+            </div>
+            <input id="Qanswer" type="button" value="" onclick="">
+            <!--Invisible Answer Input for Comparing User Choice with Answer-->
+
+        </div>
+
+        <!--Start of Score Tracker, Question Number Tracker, Pause Background Music Button Section-->
+
+        <div class="extracon" id="extracon">
+
+            <div class="scorebox" id="scorebox"></div>
+            <!--Score Tracker-->
+            <div class="sbox" id="sbox"></div>
+            <!--Question Number Tracker-->
+            <input id="timer" type="button" value="Click to Pause Music" onclick="pauseAudio();">
+            <!--Pause Music Button-->
+
+        </div>
+
+        <!--End of Score Tracker, Question Number Tracker, Pause Background Music Button Section-->
+
+        <!--Start of Quiz Sounds Section-->
+
+        <audio id="audio" src="audio/medieval.mp3"></audio>
+        <!--Background Music-->
+        <audio id="beep-three" src="audio/beep.mp3"></audio>
+        <!--Input Hover Sound-->
+        <audio id ="right" src ="audio/right.wav"></audio>
+        <!--Right Answer Sound-->
+        <audio id ="wrong" src ="audio/wrong.wav"></audio>
+        <!--Wrong Answer Sound-->
+        <audio id="yousuck" src="audio/yousuck.mp3"></audio>
+        <!--ScoreBoard Ending Sound-->
+        <audio id="SB1" src="audio/001.mp3"></audio>
+        <!--ScoreBoard Ending Sound-->
+        <audio id="SB2" src="audio/002.mp3"></audio>
+        <!--ScoreBoard Ending Sound-->
+        <audio id="SB3" src="audio/003.mp3"></audio>
+        <!--ScoreBoard Ending Sound-->
+        <audio id="SB4" src="audio/004.mp3"></audio>
+        <!--ScoreBoard Ending Sound-->
+
+        <!--End of Quiz Sounds Section-->
+        <!--End of Quiz Section-->
+
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="video/myvideo.mp4" type="video/mp4">Your browser does not support HTML5 video.
+    </video>
+    <!--Background Video For Quiz-->
+
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="appScript.js"></script>
+
+</html>
